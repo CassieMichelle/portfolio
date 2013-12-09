@@ -170,7 +170,7 @@ $(document).ready(function() {
     $(".active").dblclick(function(){
         console.log(this.id);
         image = this.id;
-        $('.image_div').append("<img src = '../profile/images/"+ image +".png'/>");
+        $('.image_div').append("<img src = '../portfolio/images/"+ image +".png'/>");
         $('#overlay').fadeIn(1000);
         $("." +image).css('display', 'block');
         positionPopup();
