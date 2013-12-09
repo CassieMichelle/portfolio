@@ -12,7 +12,7 @@ body {
   
 }
 
-i {
+.header_container i {
   color: #e58d51;
   cursor: pointer;
  /* padding-top: 75%;*/
@@ -252,7 +252,7 @@ h2 {
   -moz-box-shadow:  0 0 5px 5px #888;
   -webkit-box-shadow:  0 0 5px 5px#888;
   box-shadow:  0 0 5px 5px #888;
-  width: 90%;
+  width: 75%;
   height: 92%;
   background: white;
   overflow: hidden;
@@ -273,16 +273,18 @@ h2 {
 
 }
 
+
 a {
   cursor: pointer;
+  color: #e58d51;
 }
 
 .image_div {
   background-color: white;
-  height: 43%;
+  height: 40%;
   width: 60%;
   margin: auto;
-  margin-bottom: 2%; 
+  margin-bottom: 5%; 
   position: relative;
 
 }
