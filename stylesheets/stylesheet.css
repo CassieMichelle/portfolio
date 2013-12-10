@@ -27,9 +27,9 @@ body {
 #navbar_container p {
   display: inline;
   padding-left: 2%;
-  padding-bottom: 1%;
+  padding-bottom: 0;
   padding-right: 1%;
-  padding-top: 1%;
+  padding-top: 2%;
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
   font-weight: bold;
@@ -43,11 +43,11 @@ body {
 #navbar_container h3 {
   display: inline;
   padding-left: 2%;
-  padding-bottom: 1%;
+  padding-bottom: 0;
   padding-right: 1%;
   padding-top: 1%;
   font-family: 'Raleway', sans-serif;
-  font-size: 35px;
+  font-size: 40px;
   font-weight: bold;
   color: #e58d51;
   text-align: center;
@@ -57,6 +57,7 @@ body {
 #navbar_container img {
   height: 100px;
   padding-left: 2%;
+  
 }
 
 .header_container {
@@ -111,7 +112,7 @@ body {
     border-collapse: collapse;
     cursor: pointer;
     display: inline-block;
-    height: 22.5%;
+    height: 22.3%;
     border: 1px solid white; 
     position: relative;
     background-color: #e58d51;
@@ -316,7 +317,9 @@ a {
   color: #e58d51;
 
 }
-
+.text_div p i {
+  margin: .5%;
+}
 .text_div h3{
 
   font-family: 'Raleway', sans-serif;
@@ -337,6 +340,9 @@ a {
   margin-bottom: 2%; 
 
 }
+
+
+
 
 
 
